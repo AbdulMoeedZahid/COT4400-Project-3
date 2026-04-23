@@ -33,7 +33,7 @@ def load_graph(name):
 
 
 # Dijkstra's algorithm
-def dijkstra(adj, num_nodes, source):
+def dijkstra_algorithm(adj, num_nodes, source):
     dist    = {i: math.inf for i in range(num_nodes)}
     prev    = {i: -1       for i in range(num_nodes)}
     visited = set()
@@ -142,7 +142,7 @@ def run_all(source_id, target_id, show_viz=True):
         # Measure time and memory
         tracemalloc.start()
         t0 = time.perf_counter()
-        dist, prev = dijkstra(adj, num_nodes, source_id)
+        dist, prev = dijkstra_algorithm(adj, num_nodes, source_id)
         elapsed_ms = (time.perf_counter() - t0) * 1000
         _, peak = tracemalloc.get_traced_memory()
         tracemalloc.stop()
@@ -169,6 +169,16 @@ def list_destinations():
     for node in large["nodes"]:
         print(f"  [{node['id']:>2}]  {node['name']}")
 
+# Wrapper to make dijkstra compatible with the test harness
+def dijkstra(graph, start_node=None):
+    adj       = graph["adj"]
+    num_nodes = len(adj)
+    source    = start_node if start_node is not None else min(adj.keys())
+    dist, prev = dijkstra_algorithm(adj, num_nodes, source)
+    return {
+        "visited_count": sum(1 for d in dist.values() if d != math.inf),
+        "shortest_distances": {k: round(v, 4) for k, v in dist.items() if v != math.inf},
+    }
 
 if __name__ == "__main__":
     list_destinations()
