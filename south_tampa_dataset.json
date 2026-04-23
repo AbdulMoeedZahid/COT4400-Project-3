@@ -243,5 +243,10 @@
     "name": "MacDill Air Force Base Gate",
     "latitude": 27.86,
     "longitude": -82.5
+  },
+  {
+  "name": "Ybor City Historic District",
+  "latitude": 27.9603,
+  "longitude": -82.4392
   }
 ]
