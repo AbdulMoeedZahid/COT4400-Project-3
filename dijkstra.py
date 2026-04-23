@@ -6,8 +6,6 @@ Loads the 4 pre-built graph JSONs from generated_graphs/ and runs Dijkstra betwe
 import heapq
 import json
 import math
-import time
-import tracemalloc
 from pathlib import Path
 from collections import defaultdict
 
@@ -72,7 +70,6 @@ def print_path(graph_name, nodes, path, dist, target):
 
     if not path:
         print("No path found (graph disconnected)")
-        print(f"Time  : {elapsed_ms:.4f} ms  |  Memory: {memory_kb:.2f} KB")
         return
 
     steps = " --> ".join(f"{nodes[n]['name']} [{n}]" for n in path)
