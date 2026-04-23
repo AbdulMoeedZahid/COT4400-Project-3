@@ -66,7 +66,7 @@ def reconstruct_path(prev, source, target):
 
 
 
-def print_path(graph_name, nodes, path, dist, target, elapsed_ms, memory_kb):
+def print_path(graph_name, nodes, path, dist, target):
     print(f"\n--- {graph_name.replace('_', ' ').title()} "
           f"| {len(nodes)} nodes ---")
 
@@ -77,9 +77,8 @@ def print_path(graph_name, nodes, path, dist, target, elapsed_ms, memory_kb):
 
     steps = " --> ".join(f"{nodes[n]['name']} [{n}]" for n in path)
     print(f"Path    : {steps}")
-    print(f"Distance: {dist[target]:.4f} miles  |  Hops: {len(path) - 1}")
-    print(f"Time    : {elapsed_ms:.4f} ms  |  Memory: {memory_kb:.2f} KB")
-
+    print(f"Distance: {dist[target]:.4f} miles")
+    print(f"Hops: {len(path) - 1}")
 
 # Highlight the shortest path on the graph visualization
 def visualize_path(graph_name, data, path):
@@ -139,17 +138,10 @@ def run_all(source_id, target_id, show_viz=True):
             print(f"\n[{name}] Node index out of range (valid: 0 to {num_nodes - 1})")
             continue
 
-        # Measure time and memory
-        tracemalloc.start()
-        t0 = time.perf_counter()
         dist, prev = dijkstra_algorithm(adj, num_nodes, source_id)
-        elapsed_ms = (time.perf_counter() - t0) * 1000
-        _, peak = tracemalloc.get_traced_memory()
-        tracemalloc.stop()
-        memory_kb = peak / 1024
 
         path = reconstruct_path(prev, source_id, target_id)
-        print_path(name, nodes, path, dist, target_id, elapsed_ms, memory_kb)
+        print_path(name, nodes, path, dist, target_id)
 
         if show_viz and path:
             visualize_path(name, data, path)
