@@ -1,0 +1,269 @@
+{
+  "graph_name": "small_dense (MST)",
+  "metadata": {
+    "num_vertices": 20,
+    "num_edges": 76,
+    "density": 0.4,
+    "average_degree": 7.6,
+    "total_edge_weight_miles": 48.506,
+    "graph_type": "undirected_weighted",
+    "weight_definition": "Euclidean distance in miles from locally projected latitude/longitude coordinates"
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Bayshore Boulevard",
+      "latitude": 27.9197,
+      "longitude": -82.4816
+    },
+    {
+      "id": 1,
+      "name": "Hyde Park Village",
+      "latitude": 27.9375,
+      "longitude": -82.485
+    },
+    {
+      "id": 2,
+      "name": "Curtis Hixon Waterfront Park",
+      "latitude": 27.9475,
+      "longitude": -82.463
+    },
+    {
+      "id": 3,
+      "name": "Tampa Riverwalk",
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    },
+    {
+      "id": 4,
+      "name": "Ballast Point Park",
+      "latitude": 27.8886,
+      "longitude": -82.4806
+    },
+    {
+      "id": 5,
+      "name": "Davis Islands Beach",
+      "latitude": 27.912,
+      "longitude": -82.4507
+    },
+    {
+      "id": 6,
+      "name": "University of Tampa",
+      "latitude": 27.9477,
+      "longitude": -82.4651
+    },
+    {
+      "id": 7,
+      "name": "Amalie Arena",
+      "latitude": 27.9427,
+      "longitude": -82.4519
+    },
+    {
+      "id": 8,
+      "name": "Tampa Museum of Art",
+      "latitude": 27.9485,
+      "longitude": -82.4645
+    },
+    {
+      "id": 9,
+      "name": "Florida Aquarium",
+      "latitude": 27.9422,
+      "longitude": -82.4466
+    },
+    {
+      "id": 10,
+      "name": "Sparkman Wharf",
+      "latitude": 27.9432,
+      "longitude": -82.4463
+    },
+    {
+      "id": 11,
+      "name": "SoHo District",
+      "latitude": 27.935,
+      "longitude": -82.4895
+    },
+    {
+      "id": 12,
+      "name": "Palma Ceia Golf Club",
+      "latitude": 27.9245,
+      "longitude": -82.505
+    },
+    {
+      "id": 13,
+      "name": "MacDill Park",
+      "latitude": 27.946,
+      "longitude": -82.459
+    },
+    {
+      "id": 14,
+      "name": "Water Works Park",
+      "latitude": 27.959,
+      "longitude": -82.465
+    },
+    {
+      "id": 15,
+      "name": "Armature Works",
+      "latitude": 27.9595,
+      "longitude": -82.4655
+    },
+    {
+      "id": 16,
+      "name": "Julian B Lane Riverfront Park",
+      "latitude": 27.95,
+      "longitude": -82.47
+    },
+    {
+      "id": 17,
+      "name": "Henry B Plant Museum",
+      "latitude": 27.9479,
+      "longitude": -82.4662
+    },
+    {
+      "id": 18,
+      "name": "Straz Center for Performing Arts",
+      "latitude": 27.9472,
+      "longitude": -82.4656
+    },
+    {
+      "id": 19,
+      "name": "Channelside Bay Plaza",
+      "latitude": 27.943,
+      "longitude": -82.446
+    }
+  ],
+  "edges": [
+    {
+      "u": 10,
+      "v": 19,
+      "u_name": "Sparkman Wharf",
+      "v_name": "Channelside Bay Plaza",
+      "weight_miles": 0.0229
+    },
+    {
+      "u": 6,
+      "v": 18,
+      "u_name": "University of Tampa",
+      "v_name": "Straz Center for Performing Arts",
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 14,
+      "v": 15,
+      "u_name": "Water Works Park",
+      "v_name": "Armature Works",
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 17,
+      "v": 18,
+      "u_name": "Henry B Plant Museum",
+      "v_name": "Straz Center for Performing Arts",
+      "weight_miles": 0.0606
+    },
+    {
+      "u": 6,
+      "v": 8,
+      "u_name": "University of Tampa",
+      "v_name": "Tampa Museum of Art",
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 9,
+      "v": 19,
+      "u_name": "Florida Aquarium",
+      "v_name": "Channelside Bay Plaza",
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 2,
+      "v": 8,
+      "u_name": "Curtis Hixon Waterfront Park",
+      "v_name": "Tampa Museum of Art",
+      "weight_miles": 0.1147
+    },
+    {
+      "u": 2,
+      "v": 13,
+      "u_name": "Curtis Hixon Waterfront Park",
+      "v_name": "MacDill Park",
+      "weight_miles": 0.2654
+    },
+    {
+      "u": 16,
+      "v": 17,
+      "u_name": "Julian B Lane Riverfront Park",
+      "v_name": "Henry B Plant Museum",
+      "weight_miles": 0.2737
+    },
+    {
+      "u": 1,
+      "v": 11,
+      "u_name": "Hyde Park Village",
+      "v_name": "SoHo District",
+      "weight_miles": 0.3246
+    },
+    {
+      "u": 7,
+      "v": 9,
+      "u_name": "Amalie Arena",
+      "v_name": "Florida Aquarium",
+      "weight_miles": 0.3257
+    },
+    {
+      "u": 3,
+      "v": 13,
+      "u_name": "Tampa Riverwalk",
+      "v_name": "MacDill Park",
+      "weight_miles": 0.3359
+    },
+    {
+      "u": 7,
+      "v": 13,
+      "u_name": "Amalie Arena",
+      "v_name": "MacDill Park",
+      "weight_miles": 0.49
+    },
+    {
+      "u": 14,
+      "v": 16,
+      "u_name": "Water Works Park",
+      "v_name": "Julian B Lane Riverfront Park",
+      "weight_miles": 0.6921
+    },
+    {
+      "u": 0,
+      "v": 11,
+      "u_name": "Bayshore Boulevard",
+      "v_name": "SoHo District",
+      "weight_miles": 1.1608
+    },
+    {
+      "u": 11,
+      "v": 12,
+      "u_name": "SoHo District",
+      "v_name": "Palma Ceia Golf Club",
+      "weight_miles": 1.1925
+    },
+    {
+      "u": 1,
+      "v": 16,
+      "u_name": "Hyde Park Village",
+      "v_name": "Julian B Lane Riverfront Park",
+      "weight_miles": 1.2586
+    },
+    {
+      "u": 0,
+      "v": 5,
+      "u_name": "Bayshore Boulevard",
+      "v_name": "Davis Islands Beach",
+      "weight_miles": 1.9616
+    },
+    {
+      "u": 0,
+      "v": 4,
+      "u_name": "Bayshore Boulevard",
+      "v_name": "Ballast Point Park",
+      "weight_miles": 2.1468
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "graph_name": "large_dense (MST)",
+  "metadata": {
+    "num_vertices": 50,
+    "num_edges": 490,
+    "density": 0.4,
+    "average_degree": 19.6,
+    "total_edge_weight_miles": 464.1851,
+    "graph_type": "undirected_weighted",
+    "weight_definition": "Euclidean distance in miles from locally projected latitude/longitude coordinates"
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Bayshore Boulevard",
+      "latitude": 27.9197,
+      "longitude": -82.4816
+    },
+    {
+      "id": 1,
+      "name": "Hyde Park Village",
+      "latitude": 27.9375,
+      "longitude": -82.485
+    },
+    {
+      "id": 2,
+      "name": "Curtis Hixon Waterfront Park",
+      "latitude": 27.9475,
+      "longitude": -82.463
+    },
+    {
+      "id": 3,
+      "name": "Tampa Riverwalk",
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    },
+    {
+      "id": 4,
+      "name": "Ballast Point Park",
+      "latitude": 27.8886,
+      "longitude": -82.4806
+    },
+    {
+      "id": 5,
+      "name": "Davis Islands Beach",
+      "latitude": 27.912,
+      "longitude": -82.4507
+    },
+    {
+      "id": 6,
+      "name": "University of Tampa",
+      "latitude": 27.9477,
+      "longitude": -82.4651
+    },
+    {
+      "id": 7,
+      "name": "Amalie Arena",
+      "latitude": 27.9427,
+      "longitude": -82.4519
+    },
+    {
+      "id": 8,
+      "name": "Tampa Museum of Art",
+      "latitude": 27.9485,
+      "longitude": -82.4645
+    },
+    {
+      "id": 9,
+      "name": "Florida Aquarium",
+      "latitude": 27.9422,
+      "longitude": -82.4466
+    },
+    {
+      "id": 10,
+      "name": "Sparkman Wharf",
+      "latitude": 27.9432,
+      "longitude": -82.4463
+    },
+    {
+      "id": 11,
+      "name": "SoHo District",
+      "latitude": 27.935,
+      "longitude": -82.4895
+    },
+    {
+      "id": 12,
+      "name": "Palma Ceia Golf Club",
+      "latitude": 27.9245,
+      "longitude": -82.505
+    },
+    {
+      "id": 13,
+      "name": "MacDill Park",
+      "latitude": 27.946,
+      "longitude": -82.459
+    },
+    {
+      "id": 14,
+      "name": "Water Works Park",
+      "latitude": 27.959,
+      "longitude": -82.465
+    },
+    {
+      "id": 15,
+      "name": "Armature Works",
+      "latitude": 27.9595,
+      "longitude": -82.4655
+    },
+    {
+      "id": 16,
+      "name": "Julian B Lane Riverfront Park",
+      "latitude": 27.95,
+      "longitude": -82.47
+    },
+    {
+      "id": 17,
+      "name": "Henry B Plant Museum",
+      "latitude": 27.9479,
+      "longitude": -82.4662
+    },
+    {
+      "id": 18,
+      "name": "Straz Center for Performing Arts",
+      "latitude": 27.9472,
+      "longitude": -82.4656
+    },
+    {
+      "id": 19,
+      "name": "Channelside Bay Plaza",
+      "latitude": 27.943,
+      "longitude": -82.446
+    },
+    {
+      "id": 20,
+      "name": "Harbour Island Park",
+      "latitude": 27.9355,
+      "longitude": -82.453
+    },
+    {
+      "id": 21,
+      "name": "Davis Islands Dog Park",
+      "latitude": 27.9105,
+      "longitude": -82.447
+    },
+    {
+      "id": 22,
+      "name": "Fred Ball Park",
+      "latitude": 27.925,
+      "longitude": -82.5
+    },
+    {
+      "id": 23,
+      "name": "Kate Jackson Park",
+      "latitude": 27.933,
+      "longitude": -82.48
+    },
+    {
+      "id": 24,
+      "name": "Swann Park",
+      "latitude": 27.93,
+      "longitude": -82.505
+    },
+    {
+      "id": 25,
+      "name": "Gadsden Park",
+      "latitude": 27.9,
+      "longitude": -82.48
+    },
+    {
+      "id": 26,
+      "name": "Picnic Island Park",
+      "latitude": 27.864,
+      "longitude": -82.54
+    },
+    {
+      "id": 27,
+      "name": "Westshore Plaza",
+      "latitude": 27.943,
+      "longitude": -82.528
+    },
+    {
+      "id": 28,
+      "name": "International Plaza",
+      "latitude": 27.975,
+      "longitude": -82.533
+    },
+    {
+      "id": 29,
+      "name": "Tampa General Hospital",
+      "latitude": 27.935,
+      "longitude": -82.46
+    },
+    {
+      "id": 30,
+      "name": "Hyde Park",
+      "latitude": 27.94,
+      "longitude": -82.49
+    },
+    {
+      "id": 31,
+      "name": "Bayshore Linear Park",
+      "latitude": 27.92,
+      "longitude": -82.48
+    },
+    {
+      "id": 32,
+      "name": "Davis Islands Marina",
+      "latitude": 27.915,
+      "longitude": -82.45
+    },
+    {
+      "id": 33,
+      "name": "Rivergate Tower",
+      "latitude": 27.9465,
+      "longitude": -82.4605
+    },
+    {
+      "id": 34,
+      "name": "Lykes Gaslight Park",
+      "latitude": 27.9468,
+      "longitude": -82.4578
+    },
+    {
+      "id": 35,
+      "name": "Madison Street Park",
+      "latitude": 27.946,
+      "longitude": -82.455
+    },
+    {
+      "id": 36,
+      "name": "Tampa Convention Center",
+      "latitude": 27.9402,
+      "longitude": -82.4594
+    },
+    {
+      "id": 37,
+      "name": "Embassy Suites Riverwalk",
+      "latitude": 27.9469,
+      "longitude": -82.4639
+    },
+    {
+      "id": 38,
+      "name": "Plant Park",
+      "latitude": 27.9478,
+      "longitude": -82.466
+    },
+    {
+      "id": 39,
+      "name": "Davis Islands Trail",
+      "latitude": 27.91,
+      "longitude": -82.448
+    },
+    {
+      "id": 40,
+      "name": "Hyde Park Softball Field",
+      "latitude": 27.939,
+      "longitude": -82.486
+    },
+    {
+      "id": 41,
+      "name": "Anderson Park",
+      "latitude": 27.9505,
+      "longitude": -82.48
+    },
+    {
+      "id": 42,
+      "name": "MacFarlane Park",
+      "latitude": 27.95,
+      "longitude": -82.5
+    },
+    {
+      "id": 43,
+      "name": "West Tampa Library",
+      "latitude": 27.9502,
+      "longitude": -82.479
+    },
+    {
+      "id": 44,
+      "name": "Rome Yard",
+      "latitude": 27.948,
+      "longitude": -82.476
+    },
+    {
+      "id": 45,
+      "name": "Howard Avenue District",
+      "latitude": 27.9355,
+      "longitude": -82.4825
+    },
+    {
+      "id": 46,
+      "name": "South Howard Avenue",
+      "latitude": 27.936,
+      "longitude": -82.483
+    },
+    {
+      "id": 47,
+      "name": "Dale Mabry Corridor",
+      "latitude": 27.94,
+      "longitude": -82.505
+    },
+    {
+      "id": 48,
+      "name": "MacDill Air Force Base Gate",
+      "latitude": 27.86,
+      "longitude": -82.5
+    },
+    {
+      "id": 49,
+      "name": "Ybor City Historic District",
+      "latitude": 27.9603,
+      "longitude": -82.4392
+    }
+  ],
+  "edges": [
+    {
+      "u": 17,
+      "v": 38,
+      "u_name": "Henry B Plant Museum",
+      "v_name": "Plant Park",
+      "weight_miles": 0.014
+    },
+    {
+      "u": 10,
+      "v": 19,
+      "u_name": "Sparkman Wharf",
+      "v_name": "Channelside Bay Plaza",
+      "weight_miles": 0.0229
+    },
+    {
+      "u": 6,
+      "v": 18,
+      "u_name": "University of Tampa",
+      "v_name": "Straz Center for Performing Arts",
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 14,
+      "v": 15,
+      "u_name": "Water Works Park",
+      "v_name": "Armature Works",
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 45,
+      "v": 46,
+      "u_name": "Howard Avenue District",
+      "v_name": "South Howard Avenue",
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 18,
+      "v": 38,
+      "u_name": "Straz Center for Performing Arts",
+      "v_name": "Plant Park",
+      "weight_miles": 0.0481
+    },
+    {
+      "u": 41,
+      "v": 43,
+      "u_name": "Anderson Park",
+      "v_name": "West Tampa Library",
+      "weight_miles": 0.0645
+    },
+    {
+      "u": 6,
+      "v": 8,
+      "u_name": "University of Tampa",
+      "v_name": "Tampa Museum of Art",
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 9,
+      "v": 19,
+      "u_name": "Florida Aquarium",
+      "v_name": "Channelside Bay Plaza",
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 2,
+      "v": 37,
+      "u_name": "Curtis Hixon Waterfront Park",
+      "v_name": "Embassy Suites Riverwalk",
+      "weight_miles": 0.0688
+    },
+    {
+      "u": 21,
+      "v": 39,
+      "u_name": "Davis Islands Dog Park",
+      "v_name": "Davis Islands Trail",
+      "weight_miles": 0.0702
+    },
+    {
+      "u": 6,
+      "v": 37,
+      "u_name": "University of Tampa",
+      "v_name": "Embassy Suites Riverwalk",
+      "weight_miles": 0.0918
+    },
+    {
+      "u": 13,
+      "v": 34,
+      "u_name": "MacDill Park",
+      "v_name": "Lykes Gaslight Park",
+      "weight_miles": 0.0918
+    },
+    {
+      "u": 13,
+      "v": 33,
+      "u_name": "MacDill Park",
+      "v_name": "Rivergate Tower",
+      "weight_miles": 0.0979
+    },
+    {
+      "u": 0,
+      "v": 31,
+      "u_name": "Bayshore Boulevard",
+      "v_name": "Bayshore Linear Park",
+      "weight_miles": 0.0999
+    },
+    {
+      "u": 1,
+      "v": 40,
+      "u_name": "Hyde Park Village",
+      "v_name": "Hyde Park Softball Field",
+      "weight_miles": 0.1202
+    },
+    {
+      "u": 1,
+      "v": 46,
+      "u_name": "Hyde Park Village",
+      "v_name": "South Howard Avenue",
+      "weight_miles": 0.1602
+    },
+    {
+      "u": 2,
+      "v": 33,
+      "u_name": "Curtis Hixon Waterfront Park",
+      "v_name": "Rivergate Tower",
+      "weight_miles": 0.1676
+    },
+    {
+      "u": 34,
+      "v": 35,
+      "u_name": "Lykes Gaslight Park",
+      "v_name": "Madison Street Park",
+      "weight_miles": 0.1798
+    },
+    {
+      "u": 5,
+      "v": 32,
+      "u_name": "Davis Islands Beach",
+      "v_name": "Davis Islands Marina",
+      "weight_miles": 0.2114
+    },
+    {
+      "u": 5,
+      "v": 39,
+      "u_name": "Davis Islands Beach",
+      "v_name": "Davis Islands Trail",
+      "weight_miles": 0.2151
+    },
+    {
+      "u": 23,
+      "v": 45,
+      "u_name": "Kate Jackson Park",
+      "v_name": "Howard Avenue District",
+      "weight_miles": 0.2304
+    },
+    {
+      "u": 43,
+      "v": 44,
+      "u_name": "West Tampa Library",
+      "v_name": "Rome Yard",
+      "weight_miles": 0.238
+    },
+    {
+      "u": 30,
+      "v": 40,
+      "u_name": "Hyde Park",
+      "v_name": "Hyde Park Softball Field",
+      "weight_miles": 0.254
+    },
+    {
+      "u": 3,
+      "v": 34,
+      "u_name": "Tampa Riverwalk",
+      "v_name": "Lykes Gaslight Park",
+      "weight_miles": 0.2648
+    },
+    {
+      "u": 16,
+      "v": 17,
+      "u_name": "Julian B Lane Riverfront Park",
+      "v_name": "Henry B Plant Museum",
+      "weight_miles": 0.2737
+    },
+    {
+      "u": 7,
+      "v": 35,
+      "u_name": "Amalie Arena",
+      "v_name": "Madison Street Park",
+      "weight_miles": 0.2962
+    },
+    {
+      "u": 12,
+      "v": 22,
+      "u_name": "Palma Ceia Golf Club",
+      "v_name": "Fred Ball Park",
+      "weight_miles": 0.3075
+    },
+    {
+      "u": 1,
+      "v": 11,
+      "u_name": "Hyde Park Village",
+      "v_name": "SoHo District",
+      "weight_miles": 0.3246
+    },
+    {
+      "u": 7,
+      "v": 9,
+      "u_name": "Amalie Arena",
+      "v_name": "Florida Aquarium",
+      "weight_miles": 0.3257
+    },
+    {
+      "u": 29,
+      "v": 36,
+      "u_name": "Tampa General Hospital",
+      "v_name": "Tampa Convention Center",
+      "weight_miles": 0.3607
+    },
+    {
+      "u": 12,
+      "v": 24,
+      "u_name": "Palma Ceia Golf Club",
+      "v_name": "Swann Park",
+      "weight_miles": 0.3795
+    },
+    {
+      "u": 16,
+      "v": 44,
+      "u_name": "Julian B Lane Riverfront Park",
+      "v_name": "Rome Yard",
+      "weight_miles": 0.3918
+    },
+    {
+      "u": 13,
+      "v": 36,
+      "u_name": "MacDill Park",
+      "v_name": "Tampa Convention Center",
+      "weight_miles": 0.4009
+    },
+    {
+      "u": 20,
+      "v": 29,
+      "u_name": "Harbour Island Park",
+      "v_name": "Tampa General Hospital",
+      "weight_miles": 0.4292
+    },
+    {
+      "u": 24,
+      "v": 47,
+      "u_name": "Swann Park",
+      "v_name": "Dale Mabry Corridor",
+      "weight_miles": 0.69
+    },
+    {
+      "u": 14,
+      "v": 16,
+      "u_name": "Water Works Park",
+      "v_name": "Julian B Lane Riverfront Park",
+      "weight_miles": 0.6921
+    },
+    {
+      "u": 42,
+      "v": 47,
+      "u_name": "MacFarlane Park",
+      "v_name": "Dale Mabry Corridor",
+      "weight_miles": 0.7546
+    },
+    {
+      "u": 4,
+      "v": 25,
+      "u_name": "Ballast Point Park",
+      "v_name": "Gadsden Park",
+      "weight_miles": 0.7875
+    },
+    {
+      "u": 40,
+      "v": 44,
+      "u_name": "Hyde Park Softball Field",
+      "v_name": "Rome Yard",
+      "weight_miles": 0.8713
+    },
+    {
+      "u": 23,
+      "v": 31,
+      "u_name": "Kate Jackson Park",
+      "v_name": "Bayshore Linear Park",
+      "weight_miles": 0.897
+    },
+    {
+      "u": 30,
+      "v": 47,
+      "u_name": "Hyde Park",
+      "v_name": "Dale Mabry Corridor",
+      "weight_miles": 0.9167
+    },
+    {
+      "u": 10,
+      "v": 49,
+      "u_name": "Sparkman Wharf",
+      "v_name": "Ybor City Historic District",
+      "weight_miles": 1.2572
+    },
+    {
+      "u": 0,
+      "v": 25,
+      "u_name": "Bayshore Boulevard",
+      "v_name": "Gadsden Park",
+      "weight_miles": 1.3628
+    },
+    {
+      "u": 27,
+      "v": 47,
+      "u_name": "Westshore Plaza",
+      "v_name": "Dale Mabry Corridor",
+      "weight_miles": 1.4207
+    },
+    {
+      "u": 20,
+      "v": 32,
+      "u_name": "Harbour Island Park",
+      "v_name": "Davis Islands Marina",
+      "weight_miles": 1.4263
+    },
+    {
+      "u": 27,
+      "v": 28,
+      "u_name": "Westshore Plaza",
+      "v_name": "International Plaza",
+      "weight_miles": 2.229
+    },
+    {
+      "u": 4,
+      "v": 48,
+      "u_name": "Ballast Point Park",
+      "v_name": "MacDill Air Force Base Gate",
+      "weight_miles": 2.3021
+    },
+    {
+      "u": 26,
+      "v": 48,
+      "u_name": "Picnic Island Park",
+      "v_name": "MacDill Air Force Base Gate",
+      "weight_miles": 2.46
+    }
+  ]
+}

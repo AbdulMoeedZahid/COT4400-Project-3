@@ -1,0 +1,1236 @@
+{
+  "graph_name": "large_sparse",
+  "metadata": {
+    "num_vertices": 50,
+    "num_edges": 184,
+    "density": 0.1502,
+    "average_degree": 7.36,
+    "total_edge_weight_miles": 87.8145,
+    "graph_type": "undirected_weighted",
+    "weight_definition": "Euclidean distance in miles from locally projected latitude/longitude coordinates"
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Bayshore Boulevard",
+      "latitude": 27.9197,
+      "longitude": -82.4816
+    },
+    {
+      "id": 1,
+      "name": "Hyde Park Village",
+      "latitude": 27.9375,
+      "longitude": -82.485
+    },
+    {
+      "id": 2,
+      "name": "Curtis Hixon Waterfront Park",
+      "latitude": 27.9475,
+      "longitude": -82.463
+    },
+    {
+      "id": 3,
+      "name": "Tampa Riverwalk",
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    },
+    {
+      "id": 4,
+      "name": "Ballast Point Park",
+      "latitude": 27.8886,
+      "longitude": -82.4806
+    },
+    {
+      "id": 5,
+      "name": "Davis Islands Beach",
+      "latitude": 27.912,
+      "longitude": -82.4507
+    },
+    {
+      "id": 6,
+      "name": "University of Tampa",
+      "latitude": 27.9477,
+      "longitude": -82.4651
+    },
+    {
+      "id": 7,
+      "name": "Amalie Arena",
+      "latitude": 27.9427,
+      "longitude": -82.4519
+    },
+    {
+      "id": 8,
+      "name": "Tampa Museum of Art",
+      "latitude": 27.9485,
+      "longitude": -82.4645
+    },
+    {
+      "id": 9,
+      "name": "Florida Aquarium",
+      "latitude": 27.9422,
+      "longitude": -82.4466
+    },
+    {
+      "id": 10,
+      "name": "Sparkman Wharf",
+      "latitude": 27.9432,
+      "longitude": -82.4463
+    },
+    {
+      "id": 11,
+      "name": "SoHo District",
+      "latitude": 27.935,
+      "longitude": -82.4895
+    },
+    {
+      "id": 12,
+      "name": "Palma Ceia Golf Club",
+      "latitude": 27.9245,
+      "longitude": -82.505
+    },
+    {
+      "id": 13,
+      "name": "MacDill Park",
+      "latitude": 27.946,
+      "longitude": -82.459
+    },
+    {
+      "id": 14,
+      "name": "Water Works Park",
+      "latitude": 27.959,
+      "longitude": -82.465
+    },
+    {
+      "id": 15,
+      "name": "Armature Works",
+      "latitude": 27.9595,
+      "longitude": -82.4655
+    },
+    {
+      "id": 16,
+      "name": "Julian B Lane Riverfront Park",
+      "latitude": 27.95,
+      "longitude": -82.47
+    },
+    {
+      "id": 17,
+      "name": "Henry B Plant Museum",
+      "latitude": 27.9479,
+      "longitude": -82.4662
+    },
+    {
+      "id": 18,
+      "name": "Straz Center for Performing Arts",
+      "latitude": 27.9472,
+      "longitude": -82.4656
+    },
+    {
+      "id": 19,
+      "name": "Channelside Bay Plaza",
+      "latitude": 27.943,
+      "longitude": -82.446
+    },
+    {
+      "id": 20,
+      "name": "Harbour Island Park",
+      "latitude": 27.9355,
+      "longitude": -82.453
+    },
+    {
+      "id": 21,
+      "name": "Davis Islands Dog Park",
+      "latitude": 27.9105,
+      "longitude": -82.447
+    },
+    {
+      "id": 22,
+      "name": "Fred Ball Park",
+      "latitude": 27.925,
+      "longitude": -82.5
+    },
+    {
+      "id": 23,
+      "name": "Kate Jackson Park",
+      "latitude": 27.933,
+      "longitude": -82.48
+    },
+    {
+      "id": 24,
+      "name": "Swann Park",
+      "latitude": 27.93,
+      "longitude": -82.505
+    },
+    {
+      "id": 25,
+      "name": "Gadsden Park",
+      "latitude": 27.9,
+      "longitude": -82.48
+    },
+    {
+      "id": 26,
+      "name": "Picnic Island Park",
+      "latitude": 27.864,
+      "longitude": -82.54
+    },
+    {
+      "id": 27,
+      "name": "Westshore Plaza",
+      "latitude": 27.943,
+      "longitude": -82.528
+    },
+    {
+      "id": 28,
+      "name": "International Plaza",
+      "latitude": 27.975,
+      "longitude": -82.533
+    },
+    {
+      "id": 29,
+      "name": "Tampa General Hospital",
+      "latitude": 27.935,
+      "longitude": -82.46
+    },
+    {
+      "id": 30,
+      "name": "Hyde Park",
+      "latitude": 27.94,
+      "longitude": -82.49
+    },
+    {
+      "id": 31,
+      "name": "Bayshore Linear Park",
+      "latitude": 27.92,
+      "longitude": -82.48
+    },
+    {
+      "id": 32,
+      "name": "Davis Islands Marina",
+      "latitude": 27.915,
+      "longitude": -82.45
+    },
+    {
+      "id": 33,
+      "name": "Rivergate Tower",
+      "latitude": 27.9465,
+      "longitude": -82.4605
+    },
+    {
+      "id": 34,
+      "name": "Lykes Gaslight Park",
+      "latitude": 27.9468,
+      "longitude": -82.4578
+    },
+    {
+      "id": 35,
+      "name": "Madison Street Park",
+      "latitude": 27.946,
+      "longitude": -82.455
+    },
+    {
+      "id": 36,
+      "name": "Tampa Convention Center",
+      "latitude": 27.9402,
+      "longitude": -82.4594
+    },
+    {
+      "id": 37,
+      "name": "Embassy Suites Riverwalk",
+      "latitude": 27.9469,
+      "longitude": -82.4639
+    },
+    {
+      "id": 38,
+      "name": "Plant Park",
+      "latitude": 27.9478,
+      "longitude": -82.466
+    },
+    {
+      "id": 39,
+      "name": "Davis Islands Trail",
+      "latitude": 27.91,
+      "longitude": -82.448
+    },
+    {
+      "id": 40,
+      "name": "Hyde Park Softball Field",
+      "latitude": 27.939,
+      "longitude": -82.486
+    },
+    {
+      "id": 41,
+      "name": "Anderson Park",
+      "latitude": 27.9505,
+      "longitude": -82.48
+    },
+    {
+      "id": 42,
+      "name": "MacFarlane Park",
+      "latitude": 27.95,
+      "longitude": -82.5
+    },
+    {
+      "id": 43,
+      "name": "West Tampa Library",
+      "latitude": 27.9502,
+      "longitude": -82.479
+    },
+    {
+      "id": 44,
+      "name": "Rome Yard",
+      "latitude": 27.948,
+      "longitude": -82.476
+    },
+    {
+      "id": 45,
+      "name": "Howard Avenue District",
+      "latitude": 27.9355,
+      "longitude": -82.4825
+    },
+    {
+      "id": 46,
+      "name": "South Howard Avenue",
+      "latitude": 27.936,
+      "longitude": -82.483
+    },
+    {
+      "id": 47,
+      "name": "Dale Mabry Corridor",
+      "latitude": 27.94,
+      "longitude": -82.505
+    },
+    {
+      "id": 48,
+      "name": "MacDill Air Force Base Gate",
+      "latitude": 27.86,
+      "longitude": -82.5
+    },
+    {
+      "id": 49,
+      "name": "Ybor City Historic District",
+      "latitude": 27.9603,
+      "longitude": -82.4392
+    }
+  ],
+  "edges": [
+    {
+      "u": 0,
+      "v": 25,
+      "weight_miles": 1.3628
+    },
+    {
+      "u": 0,
+      "v": 31,
+      "weight_miles": 0.0999
+    },
+    {
+      "u": 1,
+      "v": 11,
+      "weight_miles": 0.3246
+    },
+    {
+      "u": 1,
+      "v": 23,
+      "weight_miles": 0.4356
+    },
+    {
+      "u": 1,
+      "v": 30,
+      "weight_miles": 0.3509
+    },
+    {
+      "u": 1,
+      "v": 40,
+      "weight_miles": 0.1202
+    },
+    {
+      "u": 1,
+      "v": 45,
+      "weight_miles": 0.2059
+    },
+    {
+      "u": 1,
+      "v": 46,
+      "weight_miles": 0.1602
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "weight_miles": 0.414
+    },
+    {
+      "u": 2,
+      "v": 6,
+      "weight_miles": 0.1291
+    },
+    {
+      "u": 2,
+      "v": 7,
+      "weight_miles": 0.7549
+    },
+    {
+      "u": 2,
+      "v": 8,
+      "weight_miles": 0.1147
+    },
+    {
+      "u": 2,
+      "v": 13,
+      "weight_miles": 0.2655
+    },
+    {
+      "u": 2,
+      "v": 16,
+      "weight_miles": 0.4613
+    },
+    {
+      "u": 2,
+      "v": 17,
+      "weight_miles": 0.1975
+    },
+    {
+      "u": 2,
+      "v": 18,
+      "weight_miles": 0.1602
+    },
+    {
+      "u": 2,
+      "v": 33,
+      "weight_miles": 0.1676
+    },
+    {
+      "u": 2,
+      "v": 34,
+      "weight_miles": 0.3214
+    },
+    {
+      "u": 2,
+      "v": 35,
+      "weight_miles": 0.4997
+    },
+    {
+      "u": 2,
+      "v": 36,
+      "weight_miles": 0.5496
+    },
+    {
+      "u": 2,
+      "v": 37,
+      "weight_miles": 0.0688
+    },
+    {
+      "u": 2,
+      "v": 38,
+      "weight_miles": 0.1845
+    },
+    {
+      "u": 3,
+      "v": 6,
+      "weight_miles": 0.5226
+    },
+    {
+      "u": 3,
+      "v": 7,
+      "weight_miles": 0.6341
+    },
+    {
+      "u": 3,
+      "v": 8,
+      "weight_miles": 0.4691
+    },
+    {
+      "u": 3,
+      "v": 13,
+      "weight_miles": 0.3359
+    },
+    {
+      "u": 3,
+      "v": 14,
+      "weight_miles": 0.7504
+    },
+    {
+      "u": 3,
+      "v": 16,
+      "weight_miles": 0.7833
+    },
+    {
+      "u": 3,
+      "v": 17,
+      "weight_miles": 0.5807
+    },
+    {
+      "u": 3,
+      "v": 18,
+      "weight_miles": 0.5644
+    },
+    {
+      "u": 3,
+      "v": 33,
+      "weight_miles": 0.3474
+    },
+    {
+      "u": 3,
+      "v": 34,
+      "weight_miles": 0.2648
+    },
+    {
+      "u": 3,
+      "v": 35,
+      "weight_miles": 0.3447
+    },
+    {
+      "u": 3,
+      "v": 36,
+      "weight_miles": 0.7301
+    },
+    {
+      "u": 3,
+      "v": 37,
+      "weight_miles": 0.4825
+    },
+    {
+      "u": 3,
+      "v": 38,
+      "weight_miles": 0.5714
+    },
+    {
+      "u": 4,
+      "v": 25,
+      "weight_miles": 0.7875
+    },
+    {
+      "u": 4,
+      "v": 48,
+      "weight_miles": 2.3021
+    },
+    {
+      "u": 5,
+      "v": 21,
+      "weight_miles": 0.2487
+    },
+    {
+      "u": 5,
+      "v": 32,
+      "weight_miles": 0.2114
+    },
+    {
+      "u": 5,
+      "v": 39,
+      "weight_miles": 0.2151
+    },
+    {
+      "u": 6,
+      "v": 8,
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 6,
+      "v": 13,
+      "weight_miles": 0.3908
+    },
+    {
+      "u": 6,
+      "v": 14,
+      "weight_miles": 0.7797
+    },
+    {
+      "u": 6,
+      "v": 16,
+      "weight_miles": 0.3389
+    },
+    {
+      "u": 6,
+      "v": 17,
+      "weight_miles": 0.0686
+    },
+    {
+      "u": 6,
+      "v": 18,
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 6,
+      "v": 33,
+      "weight_miles": 0.2931
+    },
+    {
+      "u": 6,
+      "v": 34,
+      "weight_miles": 0.4504
+    },
+    {
+      "u": 6,
+      "v": 35,
+      "weight_miles": 0.6283
+    },
+    {
+      "u": 6,
+      "v": 36,
+      "weight_miles": 0.6238
+    },
+    {
+      "u": 6,
+      "v": 37,
+      "weight_miles": 0.0918
+    },
+    {
+      "u": 6,
+      "v": 38,
+      "weight_miles": 0.0554
+    },
+    {
+      "u": 6,
+      "v": 44,
+      "weight_miles": 0.6664
+    },
+    {
+      "u": 7,
+      "v": 9,
+      "weight_miles": 0.3257
+    },
+    {
+      "u": 7,
+      "v": 10,
+      "weight_miles": 0.344
+    },
+    {
+      "u": 7,
+      "v": 13,
+      "weight_miles": 0.49
+    },
+    {
+      "u": 7,
+      "v": 19,
+      "weight_miles": 0.3612
+    },
+    {
+      "u": 7,
+      "v": 20,
+      "weight_miles": 0.5013
+    },
+    {
+      "u": 7,
+      "v": 29,
+      "weight_miles": 0.7262
+    },
+    {
+      "u": 7,
+      "v": 33,
+      "weight_miles": 0.5873
+    },
+    {
+      "u": 7,
+      "v": 34,
+      "weight_miles": 0.4583
+    },
+    {
+      "u": 7,
+      "v": 35,
+      "weight_miles": 0.2962
+    },
+    {
+      "u": 7,
+      "v": 36,
+      "weight_miles": 0.4897
+    },
+    {
+      "u": 7,
+      "v": 37,
+      "weight_miles": 0.7885
+    },
+    {
+      "u": 8,
+      "v": 13,
+      "weight_miles": 0.3778
+    },
+    {
+      "u": 8,
+      "v": 14,
+      "weight_miles": 0.7251
+    },
+    {
+      "u": 8,
+      "v": 15,
+      "weight_miles": 0.7615
+    },
+    {
+      "u": 8,
+      "v": 16,
+      "weight_miles": 0.3517
+    },
+    {
+      "u": 8,
+      "v": 17,
+      "weight_miles": 0.1118
+    },
+    {
+      "u": 8,
+      "v": 18,
+      "weight_miles": 0.1121
+    },
+    {
+      "u": 8,
+      "v": 33,
+      "weight_miles": 0.2807
+    },
+    {
+      "u": 8,
+      "v": 34,
+      "weight_miles": 0.4259
+    },
+    {
+      "u": 8,
+      "v": 35,
+      "weight_miles": 0.6056
+    },
+    {
+      "u": 8,
+      "v": 36,
+      "weight_miles": 0.652
+    },
+    {
+      "u": 8,
+      "v": 37,
+      "weight_miles": 0.1163
+    },
+    {
+      "u": 8,
+      "v": 38,
+      "weight_miles": 0.1036
+    },
+    {
+      "u": 8,
+      "v": 44,
+      "weight_miles": 0.7036
+    },
+    {
+      "u": 9,
+      "v": 10,
+      "weight_miles": 0.0714
+    },
+    {
+      "u": 9,
+      "v": 19,
+      "weight_miles": 0.0663
+    },
+    {
+      "u": 9,
+      "v": 20,
+      "weight_miles": 0.6056
+    },
+    {
+      "u": 9,
+      "v": 34,
+      "weight_miles": 0.7545
+    },
+    {
+      "u": 9,
+      "v": 35,
+      "weight_miles": 0.5764
+    },
+    {
+      "u": 10,
+      "v": 19,
+      "weight_miles": 0.0229
+    },
+    {
+      "u": 10,
+      "v": 20,
+      "weight_miles": 0.6708
+    },
+    {
+      "u": 10,
+      "v": 34,
+      "weight_miles": 0.7454
+    },
+    {
+      "u": 10,
+      "v": 35,
+      "weight_miles": 0.5657
+    },
+    {
+      "u": 10,
+      "v": 49,
+      "weight_miles": 1.2572
+    },
+    {
+      "u": 11,
+      "v": 23,
+      "weight_miles": 0.5967
+    },
+    {
+      "u": 11,
+      "v": 30,
+      "weight_miles": 0.3464
+    },
+    {
+      "u": 11,
+      "v": 40,
+      "weight_miles": 0.3492
+    },
+    {
+      "u": 11,
+      "v": 45,
+      "weight_miles": 0.4292
+    },
+    {
+      "u": 11,
+      "v": 46,
+      "weight_miles": 0.4032
+    },
+    {
+      "u": 12,
+      "v": 22,
+      "weight_miles": 0.3075
+    },
+    {
+      "u": 12,
+      "v": 24,
+      "weight_miles": 0.3795
+    },
+    {
+      "u": 13,
+      "v": 16,
+      "weight_miles": 0.7267
+    },
+    {
+      "u": 13,
+      "v": 17,
+      "weight_miles": 0.4591
+    },
+    {
+      "u": 13,
+      "v": 18,
+      "weight_miles": 0.4117
+    },
+    {
+      "u": 13,
+      "v": 29,
+      "weight_miles": 0.7615
+    },
+    {
+      "u": 13,
+      "v": 33,
+      "weight_miles": 0.0979
+    },
+    {
+      "u": 13,
+      "v": 34,
+      "weight_miles": 0.0918
+    },
+    {
+      "u": 13,
+      "v": 35,
+      "weight_miles": 0.2444
+    },
+    {
+      "u": 13,
+      "v": 36,
+      "weight_miles": 0.4009
+    },
+    {
+      "u": 13,
+      "v": 37,
+      "weight_miles": 0.3058
+    },
+    {
+      "u": 13,
+      "v": 38,
+      "weight_miles": 0.4454
+    },
+    {
+      "u": 14,
+      "v": 15,
+      "weight_miles": 0.0461
+    },
+    {
+      "u": 14,
+      "v": 16,
+      "weight_miles": 0.6921
+    },
+    {
+      "u": 14,
+      "v": 17,
+      "weight_miles": 0.7694
+    },
+    {
+      "u": 14,
+      "v": 38,
+      "weight_miles": 0.7752
+    },
+    {
+      "u": 15,
+      "v": 16,
+      "weight_miles": 0.7108
+    },
+    {
+      "u": 16,
+      "v": 17,
+      "weight_miles": 0.2737
+    },
+    {
+      "u": 16,
+      "v": 18,
+      "weight_miles": 0.3311
+    },
+    {
+      "u": 16,
+      "v": 33,
+      "weight_miles": 0.6288
+    },
+    {
+      "u": 16,
+      "v": 34,
+      "weight_miles": 0.7776
+    },
+    {
+      "u": 16,
+      "v": 37,
+      "weight_miles": 0.4298
+    },
+    {
+      "u": 16,
+      "v": 38,
+      "weight_miles": 0.2877
+    },
+    {
+      "u": 16,
+      "v": 41,
+      "weight_miles": 0.6121
+    },
+    {
+      "u": 16,
+      "v": 43,
+      "weight_miles": 0.5502
+    },
+    {
+      "u": 16,
+      "v": 44,
+      "weight_miles": 0.3918
+    },
+    {
+      "u": 17,
+      "v": 18,
+      "weight_miles": 0.0606
+    },
+    {
+      "u": 17,
+      "v": 33,
+      "weight_miles": 0.3615
+    },
+    {
+      "u": 17,
+      "v": 34,
+      "weight_miles": 0.5189
+    },
+    {
+      "u": 17,
+      "v": 35,
+      "weight_miles": 0.6969
+    },
+    {
+      "u": 17,
+      "v": 36,
+      "weight_miles": 0.6745
+    },
+    {
+      "u": 17,
+      "v": 37,
+      "weight_miles": 0.1566
+    },
+    {
+      "u": 17,
+      "v": 38,
+      "weight_miles": 0.014
+    },
+    {
+      "u": 17,
+      "v": 44,
+      "weight_miles": 0.5989
+    },
+    {
+      "u": 18,
+      "v": 33,
+      "weight_miles": 0.3154
+    },
+    {
+      "u": 18,
+      "v": 34,
+      "weight_miles": 0.4775
+    },
+    {
+      "u": 18,
+      "v": 35,
+      "weight_miles": 0.6531
+    },
+    {
+      "u": 18,
+      "v": 36,
+      "weight_miles": 0.6139
+    },
+    {
+      "u": 18,
+      "v": 37,
+      "weight_miles": 0.1059
+    },
+    {
+      "u": 18,
+      "v": 38,
+      "weight_miles": 0.0481
+    },
+    {
+      "u": 18,
+      "v": 44,
+      "weight_miles": 0.638
+    },
+    {
+      "u": 19,
+      "v": 20,
+      "weight_miles": 0.6714
+    },
+    {
+      "u": 19,
+      "v": 34,
+      "weight_miles": 0.7673
+    },
+    {
+      "u": 19,
+      "v": 35,
+      "weight_miles": 0.5877
+    },
+    {
+      "u": 20,
+      "v": 29,
+      "weight_miles": 0.4292
+    },
+    {
+      "u": 20,
+      "v": 32,
+      "weight_miles": 1.4263
+    },
+    {
+      "u": 20,
+      "v": 35,
+      "weight_miles": 0.7347
+    },
+    {
+      "u": 20,
+      "v": 36,
+      "weight_miles": 0.5081
+    },
+    {
+      "u": 21,
+      "v": 32,
+      "weight_miles": 0.3606
+    },
+    {
+      "u": 21,
+      "v": 39,
+      "weight_miles": 0.0702
+    },
+    {
+      "u": 22,
+      "v": 24,
+      "weight_miles": 0.4609
+    },
+    {
+      "u": 23,
+      "v": 30,
+      "weight_miles": 0.7789
+    },
+    {
+      "u": 23,
+      "v": 31,
+      "weight_miles": 0.897
+    },
+    {
+      "u": 23,
+      "v": 40,
+      "weight_miles": 0.553
+    },
+    {
+      "u": 23,
+      "v": 45,
+      "weight_miles": 0.2304
+    },
+    {
+      "u": 23,
+      "v": 46,
+      "weight_miles": 0.2765
+    },
+    {
+      "u": 24,
+      "v": 47,
+      "weight_miles": 0.69
+    },
+    {
+      "u": 26,
+      "v": 48,
+      "weight_miles": 2.46
+    },
+    {
+      "u": 27,
+      "v": 28,
+      "weight_miles": 2.229
+    },
+    {
+      "u": 27,
+      "v": 47,
+      "weight_miles": 1.4207
+    },
+    {
+      "u": 29,
+      "v": 36,
+      "weight_miles": 0.3607
+    },
+    {
+      "u": 30,
+      "v": 40,
+      "weight_miles": 0.254
+    },
+    {
+      "u": 30,
+      "v": 45,
+      "weight_miles": 0.5536
+    },
+    {
+      "u": 30,
+      "v": 46,
+      "weight_miles": 0.5091
+    },
+    {
+      "u": 30,
+      "v": 47,
+      "weight_miles": 0.9167
+    },
+    {
+      "u": 32,
+      "v": 39,
+      "weight_miles": 0.366
+    },
+    {
+      "u": 33,
+      "v": 34,
+      "weight_miles": 0.1663
+    },
+    {
+      "u": 33,
+      "v": 35,
+      "weight_miles": 0.3379
+    },
+    {
+      "u": 33,
+      "v": 36,
+      "weight_miles": 0.4399
+    },
+    {
+      "u": 33,
+      "v": 37,
+      "weight_miles": 0.2096
+    },
+    {
+      "u": 33,
+      "v": 38,
+      "weight_miles": 0.3479
+    },
+    {
+      "u": 34,
+      "v": 35,
+      "weight_miles": 0.1798
+    },
+    {
+      "u": 34,
+      "v": 36,
+      "weight_miles": 0.4658
+    },
+    {
+      "u": 34,
+      "v": 37,
+      "weight_miles": 0.3728
+    },
+    {
+      "u": 34,
+      "v": 38,
+      "weight_miles": 0.5058
+    },
+    {
+      "u": 35,
+      "v": 36,
+      "weight_miles": 0.4821
+    },
+    {
+      "u": 35,
+      "v": 37,
+      "weight_miles": 0.5474
+    },
+    {
+      "u": 35,
+      "v": 38,
+      "weight_miles": 0.6836
+    },
+    {
+      "u": 36,
+      "v": 37,
+      "weight_miles": 0.5379
+    },
+    {
+      "u": 36,
+      "v": 38,
+      "weight_miles": 0.6616
+    },
+    {
+      "u": 37,
+      "v": 38,
+      "weight_miles": 0.1426
+    },
+    {
+      "u": 37,
+      "v": 44,
+      "weight_miles": 0.7433
+    },
+    {
+      "u": 38,
+      "v": 44,
+      "weight_miles": 0.6113
+    },
+    {
+      "u": 40,
+      "v": 44,
+      "weight_miles": 0.8713
+    },
+    {
+      "u": 40,
+      "v": 45,
+      "weight_miles": 0.3226
+    },
+    {
+      "u": 40,
+      "v": 46,
+      "weight_miles": 0.2765
+    },
+    {
+      "u": 41,
+      "v": 43,
+      "weight_miles": 0.0645
+    },
+    {
+      "u": 41,
+      "v": 44,
+      "weight_miles": 0.2992
+    },
+    {
+      "u": 42,
+      "v": 47,
+      "weight_miles": 0.7546
+    },
+    {
+      "u": 43,
+      "v": 44,
+      "weight_miles": 0.238
+    },
+    {
+      "u": 45,
+      "v": 46,
+      "weight_miles": 0.0461
+    }
+  ]
+}

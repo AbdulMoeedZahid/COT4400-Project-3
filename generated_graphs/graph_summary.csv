@@ -1,0 +1,5 @@
+graph_name,num_vertices,num_edges,density,average_degree,total_edge_weight_miles,graph_type
+small_sparse,20,28,0.1474,2.8,12.3714,undirected_weighted
+small_dense,20,76,0.4,7.6,48.506,undirected_weighted
+large_sparse,50,184,0.1502,7.36,87.8145,undirected_weighted
+large_dense,50,490,0.4,19.6,464.1851,undirected_weighted

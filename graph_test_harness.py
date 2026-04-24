@@ -62,6 +62,7 @@ from collections import deque
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
 from dijkstra import dijkstra
+from MST import build_mst
 
 
 GraphDict = Dict[str, Any]
@@ -168,11 +169,20 @@ def dfs(graph: GraphDict, start_node: Optional[int] = None) -> Dict[str, Any]:
         "walk_distance": round(walk_distance, 4),
     }
 
+def mst(graph: GraphDict, start_node: Optional[int] = None) -> Dict[str, Any]:
+    nodes = graph["nodes"]
+    edges = graph["edges"]
+    mst_edges, total_weight = build_mst(nodes, edges)
+    return {
+        "mst_edges_created": len(mst_edges),
+        "total_network_distance": round(total_weight, 4)
+    }
 
 ALGORITHMS: Dict[str, AlgorithmFn] = {
     "bfs": bfs,
     "dfs": dfs,
     "dijkstra": dijkstra,
+    "mst": mst,
 }
 
 
